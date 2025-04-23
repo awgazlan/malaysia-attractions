@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist Attraction Directory</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tourist Attraction Directory</h1>
+        
+        <!-- Category Dropdown for Filtering -->
+        <div id="category-filter">
+            <select onchange="showAttractions(this.value, 'category')">
+                <option value="">Select Category</option>
+                <option value="Urban Landmark">Urban Landmark</option>
+                <option value="Recreational">Recreational</option>
+                <option value="Cultural">Cultural</option>
+                <option value="Nature">Nature</option>
+                <option value="Educational">Educational</option>
+            </select>
+        </div>
+        
+        <div id="attraction-list"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

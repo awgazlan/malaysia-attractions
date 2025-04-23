@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Attractions>
+    <Attraction>
+        <PlaceID>1</PlaceID>
+        <Name>Petronas Twin Towers</Name>
+        <City>Kuala Lumpur</City>
+        <State>Wilayah Persekutuan</State>
+        <Description>The iconic twin skyscrapers in Kuala Lumpur.</Description>
+        <OpeningHours>9:00 AM - 9:00 PM</OpeningHours>
+        <Category>Urban Landmark</Category>
+        <Ticket>Adult</Ticket>
+        <Price>80 MYR</Price>
+        <Image>image/petronas_twin_towers.jpg</Image>
+    </Attraction>
+    <Attraction>
+        <PlaceID>2</PlaceID>
+        <Name>Batu Caves</Name>
+        <City>Gombak</City>
+        <State>Selangor</State>
+        <Description>A limestone hill with caves and temples.</Description>
+        <OpeningHours>6:00 AM - 9:00 PM</OpeningHours>
+        <Category>Cultural</Category>
+        <Ticket>Free</Ticket>
+        <Price>0 MYR</Price>
+        <Image>image/batu_caves.jpg</Image>
+    </Attraction>
+    <Attraction>
+        <PlaceID>3</PlaceID>
+        <Name>Mount Kinabalu</Name>
+        <City>Kota Kinabalu</City>
+        <State>Sabah</State>
+        <Description>The highest peak in Southeast Asia, known for its scenic views and hiking trails.</Description>
+        <OpeningHours>24 Hours</OpeningHours>
+        <Category>Nature</Category>
+        <Ticket>Adult</Ticket>
+        <Price>100 MYR</Price>
+        <Image>image/mount_kinabalu.jpg</Image>
+    </Attraction>
+    <Attraction>
+        <PlaceID>4</PlaceID>
+        <Name>Sepilok Orangutan Rehabilitation Centre</Name>
+        <City>Sandakan</City>
+        <State>Sabah</State>
+        <Description>A sanctuary for orangutans, focused on rehabilitation and reintroduction into the wild.</Description>
+        <OpeningHours>8:00 AM - 4:00 PM</OpeningHours>
+        <Category>Educational</Category>
+        <Ticket>Adult</Ticket>
+        <Price>50 MYR</Price>
+        <Image>image/orangutan_sanctuary.jpg</Image>
+    </Attraction>
+    <Attraction>
+        <PlaceID>5</PlaceID>
+        <Name>Gunung Mulu National Park</Name>
+        <City>Mulu</City>
+        <State>Sarawak</State>
+        <Description>A UNESCO World Heritage site with vast caves, rainforests, and diverse wildlife.</Description>
+        <OpeningHours>24 Hours</OpeningHours>
+        <Category>Nature</Category>
+        <Ticket>Adult</Ticket>
+        <Price>90 MYR</Price>
+        <Image>image/gunung_mulu.jpg</Image>
+    </Attraction>
+    <Attraction>
+        <PlaceID>6</PlaceID>
+        <Name>Sarawak Cultural Village</Name>
+        <City>Kuching</City>
+        <State>Sarawak</State>
+        <Description>An open-air museum showcasing the culture and traditions of the indigenous people of Sarawak.</Description>
+        <OpeningHours>9:00 AM - 5:00 PM</OpeningHours>
+        <Category>Cultural</Category>
+        <Ticket>Adult</Ticket>
+        <Price>60 MYR</Price>
+        <Image>image/sarawak_cultural_village.jpg</Image>
+    </Attraction>
+    <Attraction>
+        <PlaceID>7</PlaceID>
+        <Name>Wind Caves</Name>
+        <City>Bau</City>
+        <State>Sarawak</State>
+        <Description>A fascinating limestone cave formation with strong winds passing through.</Description>
+        <OpeningHours>9:00 AM - 5:00 PM</OpeningHours>
+        <Category>Nature</Category>
+        <Ticket>Adult</Ticket>
+        <Price>25 MYR</Price>
+        <Image>image/wind_caves.png</Image>
+    </Attraction>
+    <Attraction>
+        <PlaceID>8</PlaceID>
+        <Name>Jungle Wok</Name>
+        <City>Sibu</City>
+        <State>Sarawak</State>
+        <Description>A wildlife reserve featuring exotic jungle wildlife and plant species.</Description>
+        <OpeningHours>9:00 AM - 5:00 PM</OpeningHours>
+        <Category>Recreational</Category>
+        <Ticket>Adult</Ticket>
+        <Price>40 MYR</Price>
+        <Image>image/jungle_wok.jpg</Image>
+    </Attraction>
+    <Attraction>
+        <PlaceID>9</PlaceID>
+        <Name>Lake Kenyir</Name>
+        <City>Kuala Terengganu</City>
+        <State>Terengganu</State>
+        <Description>The largest man-made lake in Southeast Asia, popular for water sports and boat tours.</Description>
+        <OpeningHours>24 Hours</OpeningHours>
+        <Category>Recreational</Category>
+        <Ticket>Free</Ticket>
+        <Price>0 MYR</Price>
+        <Image>image/lake_kenyir.jpg</Image>
+    </Attraction>
+    <Attraction>
+        <PlaceID>10</PlaceID>
+        <Name>Langkawi Sky Bridge</Name>
+        <City>Langkawi</City>
+        <State>Kedah</State>
+        <Description>A curved pedestrian cable-stayed bridge with stunning views of Langkawi's landscape.</Description>
+        <OpeningHours>9:00 AM - 7:00 PM</OpeningHours>
+        <Category>Urban Landmark</Category>
+        <Ticket>Adult</Ticket>
+        <Price>35 MYR</Price>
+        <Image>image/langkawi_sky_bridge.jpg</Image>
+    </Attraction>
+</Attractions>
