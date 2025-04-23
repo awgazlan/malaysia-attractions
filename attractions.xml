@@ -34,7 +34,7 @@
         <Category>Nature</Category>
         <Ticket>Adult</Ticket>
         <Price>100 MYR</Price>
-        <Image>image/mount_kinabalu.jpg</Image>
+        <Image>image/mount_kinabalu.jpeg</Image>
     </Attraction>
     <Attraction>
         <PlaceID>4</PlaceID>
