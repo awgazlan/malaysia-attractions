@@ -84,17 +84,17 @@
         <Price>25 MYR</Price>
         <Image>image/wind_caves.png</Image>
     </Attraction>
-    <Attraction>
+        <Attraction>
         <PlaceID>8</PlaceID>
-        <Name>Jungle Wok</Name>
-        <City>Sibu</City>
-        <State>Sarawak</State>
-        <Description>A wildlife reserve featuring exotic jungle wildlife and plant species.</Description>
-        <OpeningHours>9:00 AM - 5:00 PM</OpeningHours>
+        <Name>Legoland Malaysia</Name>
+        <City>Johor Bahru</City>
+        <State>Johor</State>
+        <Description>A theme park with rides, attractions, and entertainment for all ages, featuring Lego-themed structures and activities.</Description>
+        <OpeningHours>10:00 AM - 6:00 PM</OpeningHours>
         <Category>Recreational</Category>
         <Ticket>Adult</Ticket>
-        <Price>40 MYR</Price>
-        <Image>image/jungle_wok.jpg</Image>
+        <Price>150 MYR</Price>
+        <Image>image/legoland.jpg</Image>
     </Attraction>
     <Attraction>
         <PlaceID>9</PlaceID>
