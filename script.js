@@ -75,14 +75,40 @@ function showDetails(placeID) {
     const attraction = attractionsData.find(item => item.placeID == placeID);
 
     if (attraction) {
-        alert(`
-            Name: ${attraction.name}
-            Description: ${attraction.description}
-            Opening Hours: ${attraction.openingHours}
-            Ticket: ${attraction.ticket}
-            Price: ${attraction.price}
-        `);
+        // Hide the attraction list and show the details container
+        document.getElementById("attraction-list").style.display = "none";
+        document.getElementById("pagination").style.display = "none";  // Hide pagination
+        document.getElementById("category-filter").style.display = "none";  // Hide category filter
+
+        // Create a detailed view of the selected attraction
+        const detailsHTML = `
+            <div class="attraction-details">
+                <img src="${attraction.image}" alt="${attraction.name}" class="attraction-detail-img" />
+                <h2>${attraction.name}</h2>
+                <p><strong>Description:</strong> ${attraction.description}</p>
+                <p><strong>Opening Hours:</strong> ${attraction.openingHours}</p>
+                <p><strong>Ticket:</strong> ${attraction.ticket}</p>
+                <p><strong>Price:</strong> ${attraction.price}</p>
+                <button onclick="goBackToList()">Back to List</button>
+            </div>
+        `;
+
+        document.getElementById("attraction-details-container").innerHTML = detailsHTML;
+        document.getElementById("attraction-details-container").style.display = "block";
     }
+}
+
+// Function to go back to the list of attractions
+function goBackToList() {
+    // Hide the details and show the list and pagination again
+    document.getElementById("attraction-details-container").style.display = "none";
+    document.getElementById("attraction-list").style.display = "block";
+    document.getElementById("pagination").style.display = "flex";
+    document.getElementById("category-filter").style.display = "block";
+
+    // Reset the page to show the first set of attractions
+    currentPage = 1;
+    displayAttractions();
 }
 
 // Load the XML on page load
