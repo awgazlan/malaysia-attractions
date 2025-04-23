@@ -9,10 +9,10 @@
 <body>
     <div class="container">
         <h1>Tourist Attraction Directory</h1>
-        
+
         <!-- Category Dropdown for Filtering -->
         <div id="category-filter">
-            <select onchange="showAttractions(this.value, 'category')">
+            <select onchange="displayAttractions()">
                 <option value="">Select Category</option>
                 <option value="Urban Landmark">Urban Landmark</option>
                 <option value="Recreational">Recreational</option>
@@ -21,16 +21,17 @@
                 <option value="Educational">Educational</option>
             </select>
         </div>
-        
+
         <!-- Attraction List Display -->
         <div id="attraction-list"></div>
 
         <!-- Pagination Buttons -->
         <div id="pagination">
-            <button id="prev-btn" onclick="changePage(-1)">Previous</button>
-            <button id="next-btn" onclick="changePage(1)">Next</button>
+            <button id="prev-btn" onclick="changePage(-1)" disabled>Previous</button>
+            <button id="next-btn" onclick="changePage(1)" disabled>Next</button>
         </div>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
