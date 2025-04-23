@@ -28,18 +28,25 @@ function loadXML() {
                 });
             }
 
-            // Display the first page of attractions
+            // Display the first page of all attractions
             displayAttractions();
         }
     };
     xhr.send();
 }
 
-// Function to display attractions for the current page
+// Function to display attractions for the current page and category
 function displayAttractions() {
+    const selectedCategory = document.getElementById("category-filter").value;
+    
+    // Filter attractions by category if selected, otherwise display all
+    const filteredAttractions = selectedCategory ? 
+        attractionsData.filter(attraction => attraction.category === selectedCategory) : 
+        attractionsData;
+
     const startIndex = (currentPage - 1) * attractionsPerPage;
     const endIndex = startIndex + attractionsPerPage;
-    const attractionsToDisplay = attractionsData.slice(startIndex, endIndex);
+    const attractionsToDisplay = filteredAttractions.slice(startIndex, endIndex);
 
     let attractionList = "";
     attractionsToDisplay.forEach(attraction => {
@@ -54,7 +61,7 @@ function displayAttractions() {
 
     document.getElementById("attraction-list").innerHTML = attractionList;
     document.getElementById("prev-btn").disabled = currentPage === 1;  // Disable prev button on first page
-    document.getElementById("next-btn").disabled = currentPage * attractionsPerPage >= attractionsData.length;  // Disable next button on last page
+    document.getElementById("next-btn").disabled = currentPage * attractionsPerPage >= filteredAttractions.length;  // Disable next button on last page
 }
 
 // Function to change pages
