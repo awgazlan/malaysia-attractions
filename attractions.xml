@@ -34,7 +34,7 @@
         <Category>Nature</Category>
         <Ticket>Adult</Ticket>
         <Price>100 MYR</Price>
-        <Image>image/mount_kinabalu.jpeg</Image>
+        <Image>image/mount_kinabalu.jpg</Image>
     </Attraction>
     <Attraction>
         <PlaceID>4</PlaceID>
@@ -84,7 +84,7 @@
         <Price>25 MYR</Price>
         <Image>image/wind_caves.png</Image>
     </Attraction>
-        <Attraction>
+    <Attraction>
         <PlaceID>8</PlaceID>
         <Name>Legoland Malaysia</Name>
         <City>Johor Bahru</City>
