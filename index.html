@@ -30,9 +30,14 @@
             <button id="prev-btn" onclick="changePage(-1)" disabled>Previous</button>
             <button id="next-btn" onclick="changePage(1)" disabled>Next</button>
         </div>
+    </div>
 
-        <!-- Attraction Details Container (hidden initially) -->
-        <div id="attraction-details-container" style="display: none;"></div>
+    <!-- Modal for Showing Attraction Details -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <div id="attraction-details-modal"></div>
+        </div>
     </div>
 
     <script src="script.js"></script>
